@@ -1,4 +1,4 @@
 # Trabajos de FrontEnd
 ## Clases
-Lemon Pie
-Pet Shop
+- Lemon Pie
+- Pet Shop
