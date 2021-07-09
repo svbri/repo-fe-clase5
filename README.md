@@ -1,3 +1,3 @@
-# repositorio-frontend
-##Clases
+# Trabajos de FrontEnd
+## Clases
 Para Clase 5 Frontend
