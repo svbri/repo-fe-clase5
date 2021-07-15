@@ -9,6 +9,13 @@
     color: #005677;
 }
 
+main {
+    margin-top: 100px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 h3{
     background: #C4C4C4;
     letter-spacing: 5px;
