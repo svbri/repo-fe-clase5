@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Titulo{
+    background-color:#C4C4C4;
+    letter-spacing: 10px;
+    color: #657f86;
+    text-align: center;
+}
+
+main {
+    margin-top: 100px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h3{
+    background: #e9e9e9;
+    letter-spacing: 5px;
+    color: #657f86;
+}
+span{
+    Font-weight: bold;
+}
+.span{
+    Font-style: italic
+}
