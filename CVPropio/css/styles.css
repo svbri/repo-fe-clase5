@@ -4,28 +4,49 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.Titulo{
-    background-color:#C4C4C4;
-    letter-spacing: 10px;
-    color: #657f86;
+/* Header */
+header{
+    background-color:#E5E5E5;
     text-align: center;
 }
 
-main {
-    margin-top: 100px;
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
+h1{
+    background-color: #C4C4C4;
+    color: #657f86;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-transform: uppercase;
 }
 
-h3{
+/* Main */
+.container {
+    margin: 40px auto;
+    width: 70%
+}
+
+h2{
     background: #e9e9e9;
     letter-spacing: 5px;
     color: #657f86;
 }
+
 span{
-    Font-weight: bold;
+    Font-weight: 900;
 }
-.span{
+
+.personal span{
     Font-style: italic
+}
+
+/* Footer */
+footer{
+    background-color: #005677;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+h3{/*
+    display: inline-block;
+    */
 }
