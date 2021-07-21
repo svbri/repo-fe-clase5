@@ -50,7 +50,7 @@ h2{
 }
 
 h3{
-    position: absolute;
+    /*position: absolute;*/
     color:rgba(63, 91, 114, 0.486);
     margin: 10px;
 }
@@ -72,10 +72,15 @@ a{
     background-color: rgba(207, 217, 221);
     padding: 15px 37px;
     margin-bottom: 20px;
-    margin-left: 30px; 
-    position: absolute;
+    margin-left: 30px;
+    /*position: absolute;*/
     border-radius: 5px;
     top: 90px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
 }
 
 /* .linkcv2{
@@ -86,8 +91,8 @@ a{
 }*/
 
 .text{
-    position: absolute;
-    margin-top: 40px;
+    /*position: absolute;*/
+    margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
 }
