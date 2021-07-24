@@ -1,98 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 /* Header */
 header{
-    font-family: 'Roboto', sans-serif;
-    background-color: #e2e4e8;
-    color:rgba(63, 91, 114, 0.486);
+    background-color: rgb(226, 228, 232);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px;
-    position: fixed;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    z-index: 10;
+    color: rgba(63, 91, 114, 0.486);
 }
 
 .head1{
-    font-size: 40px;
     font-weight: 800;
-    display:inline-block;
+    font-size: 40px;
 }
 
-.head2{
+header nav ul{
+    display: flex;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+nav li{
+    /*display: inline;*/
+    margin-right: 13px;
+    padding-right: 10px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
     font-size: 18px;
     font-weight: 800;
-    margin: 5px;
-    display:inline-block;
 }
-
 
 /* Body */
-main{
-    padding: 10px;
-}
-
-
 body{
     background-color: rgba(224, 228, 233, 0.486);
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    position: relative;
-    justify-content: space-around;
 }
 
-h2{
-    font-family: 'Roboto', sans-serif;
-    padding: 20px;
-    color:rgba(63, 91, 114, 0.486);
-    position: relative;
-    top: 20px;
-}
-
-h3{
-    /*position: absolute;*/
-    color:rgba(63, 91, 114, 0.486);
-    margin: 10px;
+h2 {
+    padding: 10px;
 }
 
 .caja{
-    width: 300px;
-    height: 527px;
-    background-color: #e4eaec;
-    position: relative;
     border-radius: 5px;
-    color:rgba(45, 62, 68, 0.486);
-    margin-left: 15px;
+    background-color: #e4eaec;
+    margin: 20px 10px;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    /*flex-direction: row;*/
     display: inline-block;
+    padding: 10px;
 }
 
-a{
+.caja>h3 {
+    color: rgba(63, 91, 114, 0.486);
+    /*margin: 20px;*/
+}
+
+.caja a {
     text-decoration: none;
+    font-weight: 800;
     color:rgb(65, 105, 121);
+    display: flex;
     background-color: rgba(207, 217, 221);
     padding: 15px 37px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    /*position: absolute;*/
+    width: 200px;
+    margin: 10px;
     border-radius: 5px;
-    top: 90px;
-}
-
-.links{
-    display: flex;
     flex-direction: column;
 }
 
-/* .linkcv2{
-    margin: 30px;
-    padding: 10px;
-    position: absolute;
-    display: block;
-}*/
-
-.text{
-    /*position: absolute;*/
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+/*Footer*/
