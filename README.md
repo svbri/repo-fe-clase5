@@ -5,4 +5,6 @@
 - [CV Batman](https://svbri.github.io/repositorio-frontend/CVBatman)
 - [CV Propio](https://svbri.github.io/repositorio-frontend/CVPropio)
 - [Cards](https://svbri.github.io/repositorio-frontend/Cards)
-- -[Pizza]
+- [Pizza](https://svbri.github.io/repositorio-frontend/Pizzeria)
+- [Formulario1](https://svbri.github.io/repositorio-frontend/Form)
+- [Formulario2](https://svbri.github.io/repositorio-frontend/FormLogin)
