@@ -107,7 +107,7 @@ nav a{
 }
 
 .boton{
-    position: sticky;
+    position: fixed;
     right: 25px;
     top: 50vh;
 }
