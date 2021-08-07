@@ -107,9 +107,9 @@ nav a{
 }
 
 .boton{
-    position: fixed;
+    position: sticky;
     right: 25px;
-    bottom: 50vh;
+    top: 50vh;
 }
 /* Footer */
 footer{
