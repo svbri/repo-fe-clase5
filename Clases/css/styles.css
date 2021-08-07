@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+main {
+    display: flex;
+}
+
 /* Header */
 header{
     background-color: rgb(226, 228, 232);
@@ -24,19 +28,15 @@ header{
 
 header nav ul{
     display: flex;
-}
-
-header ul{
     list-style-type: none;
 }
 
 nav li{
-    /*display: inline;*/
     margin-right: 13px;
     padding-right: 10px;
 }
 
-.nav{
+nav{
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -60,7 +60,6 @@ h2 {
     width: 300px;
     height: 600px;
     display: flex;
-    /*flex-direction: row;*/
     display: inline-block;
     padding: 10px;
 }
