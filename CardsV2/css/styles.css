@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Header */
+header div{
+    background-color: #1CD1B0;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h2{
+    background-color: #00669F;
+    color: #fff;
+    padding: 20px;
+}
+
+nav{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+nav ul{
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+}
+
+nav li{
+    margin-left: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Main */
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 1020px;
+    margin: 0 auto;
+    gap: 60px;
+}
+.card{
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 533px;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+}
+
+.card h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.card p{
+    padding: 15px;
+}
+
+.card a{
+    background-color: #00669F;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    left: 90px;
+}
+.texto{
+    position: absolute;
+    top: 270px;
+}
+.card a:hover{
+    background-color: #fff;
+    color: #00669F;
+}
+
+.foto{
+    border-radius: 50%;
+    position: absolute;
+    top: 128px;
+    left: 90px;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.boton{
+    position: absolute;
+    right: 25px;
+    bottom: 100px;
+}
+/* Footer */
+footer{
+    background-color: #00669F;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
