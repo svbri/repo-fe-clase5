@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@media (min-width: 460px) and (orientation: portrait){
+    .productos{
+        width: 460px;
+        margin: 0 auto;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
 
+    .suscripcion {
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+    }
+}
+
+@media (min-width: 760px) and (orientation: portrait){
+    
+}
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
@@ -139,6 +160,7 @@ main section i{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .producto{
