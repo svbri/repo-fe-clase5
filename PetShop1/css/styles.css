@@ -295,6 +295,7 @@ footer > p {
     border-radius: 50%;
     border: 5px #786960 solid;
     outline: none;
+    text-align: center;
 }
 
 .grid-item2 h3, .grid-item4 h3, .grid-item6 h3 {
