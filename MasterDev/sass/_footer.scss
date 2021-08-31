@@ -1,0 +1,19 @@
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    .social{
+        .fa{
+            height: 40px;
+            width: 40px;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 10px;
+            border-radius: 50%;
+            box-shadow: -3px 0px 0px 1px $bg-primary;
+            margin-left: 20px;
+        }
+    }
+}

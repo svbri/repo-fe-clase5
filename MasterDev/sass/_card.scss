@@ -1,0 +1,30 @@
+.containercard{
+    display: flex;
+    justify-content: center;
+        .card{
+          background-color: $bg-secondary;
+          width: 250px;
+          height: 250px;
+          padding: 10px;
+          margin: 10px;
+          border-radius: 4px;
+            .number{
+                height: 40px;
+                width: 40px;
+                border: 1px $color-primary solid;
+                border-radius: 50%;
+                text-align: center;
+                padding-top: 10px;
+                box-shadow: -3px 0px 0px 1px $bg-primary;
+            }
+            .cardtext{
+                padding: 15px;
+                h3{
+                    font-size: 17px;
+                }
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+}

@@ -1,0 +1,34 @@
+/* Body */
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    .h2{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 55px;
+            letter-spacing: 10px;
+            line-height: 70px;
+        }
+        p{
+            color: $color-primary;
+            line-height: 28px;
+        }
+        .btns{
+            margin-top: 30px;
+            a{
+                text-decoration: none;
+                color: #000000;
+                background-color: $bg-primary;
+                font-size: 15px;
+                text-align: center;
+                padding: 15px 25px;
+                border-radius: 5px;
+                border: 1px #0000002f solid;
+                margin-right: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Header */
+header {
+  padding: 40px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+  padding-left: 25px;
+}
+
+/* Body */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.container .h2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .h2 h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 55px;
+  letter-spacing: 10px;
+  line-height: 70px;
+}
+
+.container .h2 p {
+  color: #8b8b8b;
+  line-height: 28px;
+}
+
+.container .h2 .btns {
+  margin-top: 30px;
+}
+
+.container .h2 .btns a {
+  text-decoration: none;
+  color: #000000;
+  background-color: #03faee;
+  font-size: 15px;
+  text-align: center;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 1px #0000002f solid;
+  margin-right: 15px;
+}
+
+.containercard {
+  display: flex;
+  justify-content: center;
+}
+
+.containercard .card {
+  background-color: #f8f8f8;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.containercard .card .number {
+  height: 40px;
+  width: 40px;
+  border: 1px #8b8b8b solid;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: -3px 0px 0px 1px #03faee;
+}
+
+.containercard .card .cardtext {
+  padding: 15px;
+}
+
+.containercard .card .cardtext h3 {
+  font-size: 17px;
+}
+
+.containercard .card .cardtext p {
+  font-size: 13px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+footer .social .fa {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 50%;
+  box-shadow: -3px 0px 0px 1px #03faee;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
