@@ -33,6 +33,20 @@ header nav ul li {
   padding-left: 25px;
 }
 
+header nav ul li .linknav::before {
+  position: absolute;
+  content: '';
+  height: 2px;
+  margin: 0 auto;
+  width: 0;
+  background-color: #03faee;
+  transition: .5s;
+}
+
+header nav ul li .linknav:hover::before {
+  width: 4%;
+}
+
 /* Body */
 .container {
   display: flex;

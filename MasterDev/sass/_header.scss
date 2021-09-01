@@ -10,6 +10,18 @@ header{
             li{
                 list-style: none;
                 padding-left: 25px;
+                .linknav::before{
+                    position: absolute;
+                    content: '';
+                    height: 2px;
+                    margin: 0 auto;
+                    width: 0;
+                    background-color: $bg-primary;
+                    transition:.5s;
+                }
+                .linknav:hover::before{
+                    width: 4%;
+                }
             }
     }
     }
