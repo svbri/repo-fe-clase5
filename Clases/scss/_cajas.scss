@@ -1,0 +1,16 @@
+/* Body */
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja{
+    @include caja;
+}

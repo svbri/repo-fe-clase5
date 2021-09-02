@@ -1,0 +1,27 @@
+@mixin caja{
+    border-radius: 5px;
+    background-color: #e4eaec;
+    margin: 20px 10px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    display: inline-block;
+    padding: 10px;
+    h3{
+        color: $color-1;
+    }
+    p{
+        height: 50px;
+    }
+    a{
+        font-weight: 800;
+        color:#416979;
+        display: flex;
+        flex-direction: column;
+        background-color: #cfd9dd;
+        padding: 15px 37px;
+        width: 200px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+}
